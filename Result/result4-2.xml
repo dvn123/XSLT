@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?><document height="48" width="1000" line-width="1000" align="justified" font-size="24">
+    <paragraph>
+        <line position="1" ratio="0.6888888888888889">
+            <box position="2" width="60">Lorem</box>
+            <glue position="4" stretchability="18" shrinkability="0" width="12"/>
+            <box position="6" width="60">ipsum</box>
+            <glue position="8" stretchability="18" shrinkability="0" width="12"/>
+            <box position="10" width="60">dolor</box>
+            <glue position="12" stretchability="18" shrinkability="0" width="12"/>
+            <box position="14" width="36">sit</box>
+            <glue position="16" stretchability="18" shrinkability="0" width="12"/>
+            <box position="18" width="60">amet,</box>
+            <glue position="20" stretchability="18" shrinkability="0" width="12"/>
+            <box position="22" width="132">consectetur</box>
+            <glue position="24" stretchability="18" shrinkability="0" width="12"/>
+            <box position="26" width="120">adipiscing</box>
+            <glue position="28" stretchability="18" shrinkability="0" width="12"/>
+            <box position="30" width="60">elit.</box>
+            <glue position="32" stretchability="18" shrinkability="0" width="12"/>
+            <box position="34" width="60">Nulla</box>
+            <glue position="36" stretchability="18" shrinkability="0" width="12"/>
+            <box position="38" width="108">dignissim</box>
+            <glue position="40" stretchability="18" shrinkability="0" width="12"/>
+        </line>
+        <line position="2" ratio="0">
+            <glue position="40" stretchability="18" shrinkability="0" width="12"/>
+            <box position="42" width="48">eros</box>
+            <glue position="44" stretchability="18" shrinkability="0" width="12"/>
+            <box position="46" width="60">nisi,</box>
+            <glue position="48" stretchability="18" shrinkability="0" width="12"/>
+            <box position="50" width="24">in</box>
+            <glue position="52" stretchability="18" shrinkability="0" width="12"/>
+            <box position="54" width="72">tempor</box>
+            <glue position="56" stretchability="18" shrinkability="0" width="12"/>
+            <box position="58" width="60">felis</box>
+            <glue position="60" stretchability="18" shrinkability="0" width="12"/>
+            <box position="62" width="120">vestibulum</box>
+            <glue position="64" stretchability="18" shrinkability="0" width="12"/>
+            <box position="66" width="36">eu.</box>
+            <glue position="68" stretchability="18" shrinkability="0" width="12"/>
+            <box position="70" width="84">Quisque</box>
+            <glue position="72" stretchability="18" shrinkability="0" width="12"/>
+            <box position="74" width="72">luctus</box>
+            <glue position="76" stretchability="18" shrinkability="0" width="12"/>
+            <box position="78" width="48">quis</box>
+            <glue position="80" stretchability="18" shrinkability="0" width="12"/>
+            <box position="82" width="60">risus</box>
+            <glue position="84" stretchability="18" shrinkability="0" width="12"/>
+            <box position="86" width="60">vitae</box>
+            <glue position="88" stretchability="18" shrinkability="0" width="12"/>
+            <box position="90" width="96">lacinia.</box>
+            <glue position="92" stretchability="18" shrinkability="0" width="12"/>
+            <box position="94" width="36">Sed</box>
+            <glue position="96" stretchability="18" shrinkability="0" width="12"/>
+            <box position="98" width="96">pharetra</box>
+            <glue position="100" stretchability="18" shrinkability="0" width="12"/>
+            <box position="102" width="60">magna</box>
+            <glue position="104" stretchability="18" shrinkability="0" width="12"/>
+            <box position="106" width="36">nec</box>
+            <glue position="108" stretchability="18" shrinkability="0" width="12"/>
+            <box position="110" width="72">mattis</box>
+            <glue position="112" stretchability="18" shrinkability="0" width="12"/>
+            <box position="114" width="132">vestibulum.</box>
+            <glue position="116" stretchability="18" shrinkability="0" width="12"/>
+            <box position="118" width="72">Nullam</box>
+            <glue position="120" stretchability="18" shrinkability="0" width="12"/>
+            <box position="122" width="36">sed</box>
+            <glue position="124" stretchability="18" shrinkability="0" width="12"/>
+            <box position="126" width="132">scelerisque</box>
+            <glue position="128" stretchability="18" shrinkability="0" width="12"/>
+            <box position="130" width="60">diam,</box>
+            <glue position="132" stretchability="18" shrinkability="0" width="12"/>
+            <box position="134" width="36">nec</box>
+            <glue position="136" stretchability="18" shrinkability="0" width="12"/>
+            <box position="138" width="84">egestas</box>
+            <glue position="140" stretchability="18" shrinkability="0" width="12"/>
+            <box position="142" width="72">dolor.</box>
+            <glue position="144" stretchability="18" shrinkability="0" width="12"/>
+            <box position="146" width="48">Nunc</box>
+            <glue position="148" stretchability="18" shrinkability="0" width="12"/>
+            <box position="150" width="24">ac</box>
+            <glue position="152" stretchability="18" shrinkability="0" width="12"/>
+            <box position="154" width="108">porttitor</box>
+            <glue position="156" stretchability="18" shrinkability="0" width="12"/>
+            <box position="158" width="72">ipsum,</box>
+            <glue position="160" stretchability="18" shrinkability="0" width="12"/>
+            <box position="162" width="24">eu</box>
+            <glue position="164" stretchability="18" shrinkability="0" width="12"/>
+            <box position="166" width="72">congue</box>
+            <glue position="168" stretchability="18" shrinkability="0" width="12"/>
+            <box position="170" width="60">diam.</box>
+            <glue position="172" stretchability="18" shrinkability="0" width="12"/>
+            <box position="174" width="72">Mauris</box>
+            <glue position="176" stretchability="18" shrinkability="0" width="12"/>
+            <box position="178" width="108">convallis</box>
+            <glue position="180" stretchability="18" shrinkability="0" width="12"/>
+            <box position="182" width="24">at</box>
+            <glue position="184" stretchability="18" shrinkability="0" width="12"/>
+            <box position="186" width="60">purus</box>
+            <glue position="188" stretchability="18" shrinkability="0" width="12"/>
+            <box position="190" width="60">vitae</box>
+            <glue position="192" stretchability="18" shrinkability="0" width="12"/>
+            <box position="194" width="96">iaculis.</box>
+            <glue position="196" stretchability="18" shrinkability="0" width="12"/>
+            <box position="198" width="108">Phasellus</box>
+            <glue position="200" stretchability="18" shrinkability="0" width="12"/>
+            <box position="202" width="96">pharetra</box>
+            <glue position="204" stretchability="18" shrinkability="0" width="12"/>
+            <box position="206" width="60">magna</box>
+            <glue position="208" stretchability="18" shrinkability="0" width="12"/>
+            <box position="210" width="24">ut</box>
+            <glue position="212" stretchability="18" shrinkability="0" width="12"/>
+            <box position="214" width="108">efficitur</box>
+            <glue position="216" stretchability="18" shrinkability="0" width="12"/>
+            <box position="218" width="96">posuere.</box>
+            <glue position="220" stretchability="18" shrinkability="0" width="12"/>
+            <box position="222" width="60">Morbi</box>
+            <glue position="224" stretchability="18" shrinkability="0" width="12"/>
+            <box position="226" width="12">a</box>
+            <glue position="228" stretchability="18" shrinkability="0" width="12"/>
+            <box position="230" width="108">ultricies</box>
+            <glue position="232" stretchability="18" shrinkability="0" width="12"/>
+            <box position="234" width="84">libero.</box>
+            <glue position="236" stretchability="18" shrinkability="0" width="12"/>
+            <box position="238" width="60">Etiam</box>
+            <glue position="240" stretchability="18" shrinkability="0" width="12"/>
+            <box position="242" width="108">ultricies</box>
+            <glue position="244" stretchability="18" shrinkability="0" width="12"/>
+            <box position="246" width="60">felis</box>
+            <glue position="248" stretchability="18" shrinkability="0" width="12"/>
+            <box position="250" width="36">non</box>
+            <glue position="252" stretchability="18" shrinkability="0" width="12"/>
+            <box position="254" width="60">lorem</box>
+            <glue position="256" stretchability="18" shrinkability="0" width="12"/>
+            <box position="258" width="84">mattis,</box>
+            <glue position="260" stretchability="18" shrinkability="0" width="12"/>
+            <box position="262" width="48">quis</box>
+            <glue position="264" stretchability="18" shrinkability="0" width="12"/>
+            <box position="266" width="108">facilisis</box>
+            <glue position="268" stretchability="18" shrinkability="0" width="12"/>
+            <box position="270" width="60">purus</box>
+            <glue position="272" stretchability="18" shrinkability="0" width="12"/>
+            <box position="274" width="84">dictum.</box>
+            <glue position="276" stretchability="18" shrinkability="0" width="12"/>
+            <box position="278" width="108">Curabitur</box>
+            <glue position="280" stretchability="18" shrinkability="0" width="12"/>
+            <box position="282" width="24">at</box>
+            <glue position="284" stretchability="18" shrinkability="0" width="12"/>
+            <box position="286" width="84">egestas</box>
+            <glue position="288" stretchability="18" shrinkability="0" width="12"/>
+            <box position="290" width="48">leo.</box>
+            <glue position="292" stretchability="18" shrinkability="0" width="12"/>
+            <box position="294" width="144">Pellentesque</box>
+            <glue position="296" stretchability="18" shrinkability="0" width="12"/>
+            <box position="298" width="96">habitant</box>
+            <glue position="300" stretchability="18" shrinkability="0" width="12"/>
+            <box position="302" width="60">morbi</box>
+            <glue position="304" stretchability="18" shrinkability="0" width="12"/>
+            <box position="306" width="108">tristique</box>
+            <glue position="308" stretchability="18" shrinkability="0" width="12"/>
+            <box position="310" width="96">senectus</box>
+            <glue position="312" stretchability="18" shrinkability="0" width="12"/>
+            <box position="314" width="24">et</box>
+            <glue position="316" stretchability="18" shrinkability="0" width="12"/>
+            <box position="318" width="60">netus</box>
+            <glue position="320" stretchability="18" shrinkability="0" width="12"/>
+            <box position="322" width="24">et</box>
+            <glue position="324" stretchability="18" shrinkability="0" width="12"/>
+            <box position="326" width="108">malesuada</box>
+            <glue position="328" stretchability="18" shrinkability="0" width="12"/>
+            <box position="330" width="60">fames</box>
+            <glue position="332" stretchability="18" shrinkability="0" width="12"/>
+            <box position="334" width="24">ac</box>
+            <glue position="336" stretchability="18" shrinkability="0" width="12"/>
+            <box position="338" width="72">turpis</box>
+            <glue position="340" stretchability="18" shrinkability="0" width="12"/>
+            <box position="342" width="96">egestas.</box>
+            <glue position="344" stretchability="18" shrinkability="0" width="12"/>
+            <box position="346" width="60">Etiam</box>
+            <glue position="348" stretchability="18" shrinkability="0" width="12"/>
+            <box position="350" width="108">consequat</box>
+            <glue position="352" stretchability="18" shrinkability="0" width="12"/>
+            <box position="354" width="72">sapien</box>
+            <glue position="356" stretchability="18" shrinkability="0" width="12"/>
+            <box position="358" width="36">sit</box>
+            <glue position="360" stretchability="18" shrinkability="0" width="12"/>
+            <box position="362" width="48">amet</box>
+            <glue position="364" stretchability="18" shrinkability="0" width="12"/>
+            <box position="366" width="48">nisl</box>
+            <glue position="368" stretchability="18" shrinkability="0" width="12"/>
+            <box position="370" width="84">maximus</box>
+            <glue position="372" stretchability="18" shrinkability="0" width="12"/>
+            <box position="374" width="96">lacinia.</box>
+            <penalty position="376" penalty="Infinity" break="prohibited"/>
+            <glue position="378" stretchability="Infinity" shrinkability="0" width="0"/>
+            <penalty position="380" penalty="-Infinity" break="required"/>
+        </line>
+    </paragraph>
+</document>

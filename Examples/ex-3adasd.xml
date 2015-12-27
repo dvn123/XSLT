@@ -1,0 +1,105 @@
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:my="my:my" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="my xs">
+    <xsl:output method="text"/>
+    <xsl:key name="kFindWord" match="w" use="."/>
+    <xsl:param name="pStartWord" select="'nice'" as="xs:string"/>
+    <xsl:param name="pTargetWord" select="'evil'" as="xs:string"/>
+    <xsl:variable name="vDictGraph" select="/"/>
+
+    <xsl:template match="/*">
+        <xsl:sequence select="my:chainOfWords($pStartWord, $pTargetWord)"/>
+    </xsl:template>
+
+    <xsl:function name="my:chainOfWords" as="xs:string*">
+        <xsl:param name="pStartWord" as="xs:string"/>
+        <xsl:param name="pEndWord" as="xs:string"/>
+        <xsl:sequence select="if(not(key('kFindWord', $pStartWord, $vDictGraph))
+                                or
+                                not(key('kFindWord', $pEndWord, $vDictGraph))
+                                )
+                                then error((), 'A word-argument isn`t found in the dictionary.')
+                                else ()
+        "/>
+
+        <xsl:variable name="vStartWord" as="xs:string"
+                      select="key('kFindWord', $pStartWord, $vDictGraph)[count(../*)  lt  count(key('kFindWord', $pEndWord, $vDictGraph)/../* )]|
+                              key('kFindWord', $pEndWord, $vDictGraph)[count(../*) le count(key('kFindWord', $pStartWord,$vDictGraph)/../*)]
+        "/>
+
+        <xsl:variable name="vEndWord" as="xs:string" select="($pStartWord, $pEndWord)[not(. eq $vStartWord)]"/>
+        <xsl:variable name="vStartNode" as="element()">
+            <node>
+                <value>
+                    <xsl:value-of select="$vStartWord"/>
+                </value>
+            </node>
+        </xsl:variable>
+
+        <xsl:sequence select="my:processQueue($vStartNode, $vEndWord, $vStartWord)"/>
+    </xsl:function>
+
+    <xsl:function name="my:processQueue" as="xs:string*">
+        <xsl:param name="pQueue" as="element()*"/>
+        <xsl:param name="pTarget" as="xs:string"/>
+        <xsl:param name="pExcluded" as="xs:string*"/>
+
+        <xsl:sequence select="if(not($pQueue)) then ()
+                                else
+                                    for $vTop in $pQueue[1],
+                                        $vResult in my:processNode($vTop, $pTarget, $pExcluded)[1]
+                                    return
+                                    if($vResult/self::result)
+                                        then string-join($vResult/*, ' ==> ')
+                                    else
+                                        my:processQueue((subsequence($pQueue, 2), $vResult/*), $pTarget, ($pExcluded, $vResult/*/value)
+    )"/>
+    </xsl:function>
+
+    <xsl:function name="my:processNode" as="element()">
+        <xsl:param name="pNode" as="element()"/>
+        <xsl:param name="pTarget" as="xs:string"/>
+        <xsl:param name="pExcluded" as="xs:string*"/>
+
+        <xsl:variable name="vCurWord" select="key('kFindWord', $pNode/value, $vDictGraph)"/>
+
+        <xsl:variable name="vNeighbors" select="$vCurWord/following-sibling::*"/>
+        <xsl:choose>
+            <xsl:when test="$pTarget = $vNeighbors">
+                <xsl:variable name="vResult" as="element()">
+                    <result>
+                        <xsl:sequence select="my:enumerate($pNode)"/>
+                        <w>
+                            <xsl:sequence select="$pTarget"/>
+                        </w>
+                    </result>
+                </xsl:variable>
+
+                <xsl:sequence select="$vResult"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:variable name="vMustAdd" as="element()">
+                    <add>
+                        <xsl:for-each select="$vNeighbors[not(. = $pExcluded)]">
+                            <node>
+                                <parent>
+                                    <xsl:sequence select="$pNode"/>
+                                </parent>
+                                <value>
+                                    <xsl:value-of select="."/>
+                                </value>
+                            </node>
+                        </xsl:for-each>
+                    </add>
+                </xsl:variable>
+                <xsl:sequence select="$vMustAdd"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+
+    <xsl:function name="my:enumerate" as="element()*">
+        <xsl:param name="pNode" as="element()?"/>
+        <xsl:sequence select="if($pNode)
+                                then (my:enumerate($pNode/parent/node), $pNode/value)
+                              else ()"
+        />
+    </xsl:function>
+</xsl:stylesheet>
