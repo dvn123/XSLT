@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="48">
+    <rect style="fill:none;stroke-width:1;stroke:rgb(0,0,0);" width="1000" height="48"/>
+    <g font-family="monospace" style="font-size:24">
+        <text>
+            <tspan x="0" y="24" y2="1" textLength="60">Lorem</tspan>
+            <tspan x="84.4" y="24" y2="1" textLength="60">ipsum</tspan>
+            <tspan x="144.4" y="24" y2="1" textLength="60">dolor</tspan>
+            <tspan x="204.4" y="24" y2="1" textLength="36">sit</tspan>
+            <tspan x="240.4" y="24" y2="1" textLength="60">amet,</tspan>
+            <tspan x="300.4" y="24" y2="1" textLength="132">consectetur</tspan>
+            <tspan x="432.4" y="24" y2="1" textLength="120">adipiscing</tspan>
+            <tspan x="552.4" y="24" y2="1" textLength="60">elit.</tspan>
+            <tspan x="612.4" y="24" y2="1" textLength="60">Nulla</tspan>
+            <tspan x="672.4" y="24" y2="1" textLength="108">dignissim</tspan>
+        </text>
+        <text>
+            <tspan x="12" y="48" y2="2" textLength="48">eros</tspan>
+            <tspan x="60" y="48" y2="2" textLength="60">nisi,</tspan>
+            <tspan x="120" y="48" y2="2" textLength="24">in</tspan>
+            <tspan x="144" y="48" y2="2" textLength="72">tempor</tspan>
+            <tspan x="216" y="48" y2="2" textLength="60">felis</tspan>
+            <tspan x="276" y="48" y2="2" textLength="120">vestibulum</tspan>
+            <tspan x="396" y="48" y2="2" textLength="36">eu.</tspan>
+            <tspan x="432" y="48" y2="2" textLength="84">Quisque</tspan>
+            <tspan x="516" y="48" y2="2" textLength="72">luctus</tspan>
+            <tspan x="588" y="48" y2="2" textLength="48">quis</tspan>
+            <tspan x="636" y="48" y2="2" textLength="60">risus</tspan>
+            <tspan x="696" y="48" y2="2" textLength="60">vitae</tspan>
+            <tspan x="756" y="48" y2="2" textLength="96">lacinia.</tspan>
+            <tspan x="852" y="48" y2="2" textLength="36">Sed</tspan>
+            <tspan x="888" y="48" y2="2" textLength="96">pharetra</tspan>
+            <tspan x="984" y="48" y2="2" textLength="60">magna</tspan>
+            <tspan x="1044" y="48" y2="2" textLength="36">nec</tspan>
+            <tspan x="1080" y="48" y2="2" textLength="72">mattis</tspan>
+            <tspan x="1152" y="48" y2="2" textLength="132">vestibulum.</tspan>
+            <tspan x="1284" y="48" y2="2" textLength="72">Nullam</tspan>
+            <tspan x="1356" y="48" y2="2" textLength="36">sed</tspan>
+            <tspan x="1392" y="48" y2="2" textLength="132">scelerisque</tspan>
+            <tspan x="1524" y="48" y2="2" textLength="60">diam,</tspan>
+            <tspan x="1584" y="48" y2="2" textLength="36">nec</tspan>
+            <tspan x="1620" y="48" y2="2" textLength="84">egestas</tspan>
+            <tspan x="1704" y="48" y2="2" textLength="72">dolor.</tspan>
+            <tspan x="1776" y="48" y2="2" textLength="48">Nunc</tspan>
+            <tspan x="1824" y="48" y2="2" textLength="24">ac</tspan>
+            <tspan x="1848" y="48" y2="2" textLength="108">porttitor</tspan>
+            <tspan x="1956" y="48" y2="2" textLength="72">ipsum,</tspan>
+            <tspan x="2028" y="48" y2="2" textLength="24">eu</tspan>
+            <tspan x="2052" y="48" y2="2" textLength="72">congue</tspan>
+            <tspan x="2124" y="48" y2="2" textLength="60">diam.</tspan>
+            <tspan x="2184" y="48" y2="2" textLength="72">Mauris</tspan>
+            <tspan x="2256" y="48" y2="2" textLength="108">convallis</tspan>
+            <tspan x="2364" y="48" y2="2" textLength="24">at</tspan>
+            <tspan x="2388" y="48" y2="2" textLength="60">purus</tspan>
+            <tspan x="2448" y="48" y2="2" textLength="60">vitae</tspan>
+            <tspan x="2508" y="48" y2="2" textLength="96">iaculis.</tspan>
+            <tspan x="2604" y="48" y2="2" textLength="108">Phasellus</tspan>
+            <tspan x="2712" y="48" y2="2" textLength="96">pharetra</tspan>
+            <tspan x="2808" y="48" y2="2" textLength="60">magna</tspan>
+            <tspan x="2868" y="48" y2="2" textLength="24">ut</tspan>
+            <tspan x="2892" y="48" y2="2" textLength="108">efficitur</tspan>
+            <tspan x="3000" y="48" y2="2" textLength="96">posuere.</tspan>
+            <tspan x="3096" y="48" y2="2" textLength="60">Morbi</tspan>
+            <tspan x="3156" y="48" y2="2" textLength="12">a</tspan>
+            <tspan x="3168" y="48" y2="2" textLength="108">ultricies</tspan>
+            <tspan x="3276" y="48" y2="2" textLength="84">libero.</tspan>
+            <tspan x="3360" y="48" y2="2" textLength="60">Etiam</tspan>
+            <tspan x="3420" y="48" y2="2" textLength="108">ultricies</tspan>
+            <tspan x="3528" y="48" y2="2" textLength="60">felis</tspan>
+            <tspan x="3588" y="48" y2="2" textLength="36">non</tspan>
+            <tspan x="3624" y="48" y2="2" textLength="60">lorem</tspan>
+            <tspan x="3684" y="48" y2="2" textLength="84">mattis,</tspan>
+            <tspan x="3768" y="48" y2="2" textLength="48">quis</tspan>
+            <tspan x="3816" y="48" y2="2" textLength="108">facilisis</tspan>
+            <tspan x="3924" y="48" y2="2" textLength="60">purus</tspan>
+            <tspan x="3984" y="48" y2="2" textLength="84">dictum.</tspan>
+            <tspan x="4068" y="48" y2="2" textLength="108">Curabitur</tspan>
+            <tspan x="4176" y="48" y2="2" textLength="24">at</tspan>
+            <tspan x="4200" y="48" y2="2" textLength="84">egestas</tspan>
+            <tspan x="4284" y="48" y2="2" textLength="48">leo.</tspan>
+            <tspan x="4332" y="48" y2="2" textLength="144">Pellentesque</tspan>
+            <tspan x="4476" y="48" y2="2" textLength="96">habitant</tspan>
+            <tspan x="4572" y="48" y2="2" textLength="60">morbi</tspan>
+            <tspan x="4632" y="48" y2="2" textLength="108">tristique</tspan>
+            <tspan x="4740" y="48" y2="2" textLength="96">senectus</tspan>
+            <tspan x="4836" y="48" y2="2" textLength="24">et</tspan>
+            <tspan x="4860" y="48" y2="2" textLength="60">netus</tspan>
+            <tspan x="4920" y="48" y2="2" textLength="24">et</tspan>
+            <tspan x="4944" y="48" y2="2" textLength="108">malesuada</tspan>
+            <tspan x="5052" y="48" y2="2" textLength="60">fames</tspan>
+            <tspan x="5112" y="48" y2="2" textLength="24">ac</tspan>
+            <tspan x="5136" y="48" y2="2" textLength="72">turpis</tspan>
+            <tspan x="5208" y="48" y2="2" textLength="96">egestas.</tspan>
+            <tspan x="5304" y="48" y2="2" textLength="60">Etiam</tspan>
+            <tspan x="5364" y="48" y2="2" textLength="108">consequat</tspan>
+            <tspan x="5472" y="48" y2="2" textLength="72">sapien</tspan>
+            <tspan x="5544" y="48" y2="2" textLength="36">sit</tspan>
+            <tspan x="5580" y="48" y2="2" textLength="48">amet</tspan>
+            <tspan x="5628" y="48" y2="2" textLength="48">nisl</tspan>
+            <tspan x="5676" y="48" y2="2" textLength="84">maximus</tspan>
+            <tspan x="5760" y="48" y2="2" textLength="96">lacinia.</tspan>
+        </text>
+    </g>
+</svg>
